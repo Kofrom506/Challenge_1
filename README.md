@@ -8,10 +8,13 @@ Below is your order:
 |------------|----------|---------|
 | Nasi Goreng| 1        | 15000.0 |
 
-Total: 1 item, $15000.0
+Total : 	1	15000.0
 
 Payment Method: BinarCash
 
 ---
 
-**Please keep this receipt as proof of payment.**
+========================= 
+Simpan Struk Ini sebagai
+Bukti Pembayaran
+========================= 
