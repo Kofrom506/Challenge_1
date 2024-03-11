@@ -14,11 +14,9 @@ Total : 	1	15000.0
 
 Payment Method: BinarCash
 
-
-========================= 
 Simpan Struk Ini sebagai
 Bukti Pembayaran
-========================= 
+
 ---
 
 
