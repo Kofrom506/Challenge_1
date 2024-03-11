@@ -1,19 +1,17 @@
-Example Output
+# Binarfud
 
-====================
-Binarfud
-====================
-Terimakasih Telah sudah memesan di Binarfud 
+Thank you for ordering at Binarfud!
 
-Dibawah ini adalah pesanan anda 
+Below is your order:
 
-Nasi Goreng	1	15000.0
--------------------------+
-Total : 	1	15000.0
+| Menu       | Quantity | Price   |
+|------------|----------|---------|
+| Nasi Goreng| 1        | 15000.0 |
 
-Pembayaran: BinarCash 
+Total: 1 item, $15000.0
 
-========================= 
-Simpan Struk Ini sebagai
-Bukti Pembayaran
-========================= 
+Payment Method: BinarCash
+
+---
+
+**Please keep this receipt as proof of payment.**
