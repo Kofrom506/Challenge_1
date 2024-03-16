@@ -27,7 +27,6 @@ public class RestaurantCLI {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        double total = 0.0;
         int qty = 0;
         System.out.println("===========================");
         System.out.println("Selamat Datang di BinarFud!");
@@ -139,7 +138,7 @@ public class RestaurantCLI {
 
             }
 
-            total += order.getTotalPrice();
+  
             orders.add(order);
             System.out.println("\n");
 
@@ -161,7 +160,7 @@ public class RestaurantCLI {
     }
 
     private static void printBill() {
-        try (FileWriter fileWriter = new FileWriter("bill.txt")) {
+        try (FileWriter fileWriter = new FileWriter("struk.txt")) {
             fileWriter.write("====================\n");
             fileWriter.write("Binarfud\n");
             fileWriter.write("====================\n");
@@ -179,7 +178,7 @@ public class RestaurantCLI {
             fileWriter.write("Simpan Struk Ini sebagai\n");
             fileWriter.write("Bukti Pembayaran\n");
             fileWriter.write("========================= \n");
-            System.out.println("Sukses Mencetak Bon pada bill.txt");
+            System.out.println("Sukses Mencetak Bon pada struk.txt");
 
 
         } catch (IOException e) {
